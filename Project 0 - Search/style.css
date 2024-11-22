@@ -48,7 +48,8 @@ li a:hover {
   outline: none;
 }
 
-#btnsearch {
+#btnsearch,
+#btnlucky {
   border: 1px solid white;
   border-radius: 7px;
   margin: 20px;
@@ -57,7 +58,8 @@ li a:hover {
   background-color: rgb(246, 248, 255);
 }
 
-#btnsearch:hover {
+#btnsearch:hover,
+#btnlucky:hover {
   border: 1px solid gray;
   cursor: pointer;
 }
