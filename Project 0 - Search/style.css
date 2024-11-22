@@ -63,23 +63,21 @@ li a:hover {
 }
 
 .form-group {
-  margin: 10px;
+  display: table-row;
 }
-.form-group label {
-  margin-bottom: 15px;
+label {
+  display: table-cell;
+  padding-right: 20px;
+  white-space: nowrap;
 }
 .form-group input {
-  width: 25em;
-  padding: 5px;
   border: 1px solid gray;
-  width: 50%;
-  padding: 10px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  font-size: 14px;
-  color: #333;
+  width: 100%;
+  display: table-cell;
+  padding: 5px;
+  padding-right: 100px;
+  margin: 5px;
   outline: none;
-  box-sizing: border-box;
 }
 
 #btnadvance {
@@ -91,9 +89,4 @@ li a:hover {
   font-weight: bold;
   font-size: 12px;
   border-radius: 2px;
-  display: flex;
-}
-
-.form-form-group {
-  display: inline-block;
 }
