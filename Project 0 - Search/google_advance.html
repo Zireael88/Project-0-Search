@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Search</title>
+    <title>Advanced Search</title>
     <link rel="stylesheet" href="style.css" />
     <link
       href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
@@ -17,14 +17,30 @@
       <li><a href="google_img.html">Google Image Search</a></li>
       <li><a href="google_advance.html">Google Advanced Search</a></li>
     </ul>
-    <div id="box">
-      <div id="form">
-        <p>Find pages with:</p>
-        <form action="https://www.google.com/search">
-          <input id="searchbox" type="text" name="q" /><br />
-          <input id="btnsearch" type="submit" value="Google Search" />
-        </form>
+    <p style="color: rgb(210, 0, 0); font-size: 20px">Advanced Search</p>
+    <hr />
+    <div id="advance-form">
+    <p>Find pages with:</p>
+    <form action="https://www.google.com/search">
+      <div class="form-group">
+        <div class="form-form-group"><label for="all">all these words: </label></div>
+        <input id="all" type="text" name="as_q" /><br />
       </div>
-    </div>
+      <div class="form-group">
+        <div class="form-form-group"><label for="exact">this exact word or phrase: </label></div>
+        <input id="exact" type="text" name="as_epq" /><br />
+      </div>
+      <div class="form-group">
+        <div class="form-form-group"><label for="any">any of these words:</label></div>
+        <input id="any" type="text" name="as_oq" /><br />
+      </div>
+      <div class="form-group">
+        <div class="form-form-group"><label for="none">none of these words:</label></div>
+        <input id="none" type="text" name="as_eq" /><br />
+      </div>
+      </form>
+      </div>
+      <input id="btnadvance" type="submit" value="Advanced Search" />
+    </form>
   </body>
 </html>
